@@ -1,0 +1,57 @@
+2. main -> master na git
+3. SI_2024_lab1_223026 na git kreirano
+4. mkdir SI_2024_lab1_223026
+cd SI_2024_lab1_223026
+git init
+5. git remote add origin https://github.com/bacoo11/SI_2024_lab1_223026.git
+git branch -M master
+git push -u origin master
+6. touch README.md (kreiram fajl)
+nano README.md (go polnam so informacii)
+git add .
+git commit -m "Initial commit"
+7. git add --all (se dodavaat razlikite)
+git commit -m "Add starter code" (se zacuvuaat izmenite od prethodna verzija do novata na primer [master 67122b5] Add starter code
+ 3 files changed, 47 insertions(+)
+ create mode 100644 SILab1Main.java
+ create mode 100644 SILab1_1.java
+ create mode 100644 SILab1_2.java)
+
+8. $ git push -u origin master
+git add . 
+git commit -m "Popraveni greski"
+9. git checkout -b bug1 master
+git checkout -b bug2 master
+10. $ git checkout bug1
+11. git add .
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+12. $ git checkout bug2
+13. git add .
+git commit -m "Fix wrong condition in makeBigStringFrom"
+14. $ git checkout bug1
+15. nano SILabMain.java
+git add .
+$ git commit -m "Call method filterOddLengthStrings in main class"
+16. $ git checkout bug2
+17. nano SILab1Main.java
+git add .
+$ git commit -m "Call method filterOddLengthStrings in main class"
+18. git push origin master git pull origin master
+19. git checkout master
+20. $ git merge bug1 (bez konflikti, spojuvanje so ff)
+21. git push origin master 
+git pull origin master
+22. git checkout bug2
+23. git rebase master (bez konflikti - Successfully rebased and updated refs/heads/bug2.)
+24. git checkout master
+25. git merge bug1 (bez konflikti, uspesno izvrsuvanje)
+26. git push origin master (gi prikacuvame nasite izmeni na git) pa so git pull origin master ja prezemame najnovata verzija pred 
+da prodolzime vo slucaj da se se slucil nekoj drug push)
+27. git push origin bug1 
+git push origin bug2
+28. touch log.txt
+git log > log.txt
+mv INDEX.txt 223026.txt
+
+
+

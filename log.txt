@@ -1,0 +1,29 @@
+commit 3e4156931de2f94ef1f4b00fff2db92e703675da
+Author: bacoo11 <damir.bachevac@students.finki.ukim.mk>
+Date:   Sun Apr 14 21:30:54 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit a784e96476487c3a73b00bca4d98fe7fd557b8c3
+Author: bacoo11 <damir.bachevac@students.finki.ukim.mk>
+Date:   Sun Apr 14 21:13:56 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 4f128b499400fb684c8a3bf639859c564e56377c
+Author: bacoo11 <damir.bachevac@students.finki.ukim.mk>
+Date:   Sun Apr 14 20:53:31 2024 +0200
+
+    Popraveni greski
+
+commit 67122b5b8e3a97eb906b3cbe2756d74dc5e51647
+Author: bacoo11 <damir.bachevac@students.finki.ukim.mk>
+Date:   Sun Apr 14 20:42:46 2024 +0200
+
+    Add starter code
+
+commit 2d13131c777ebec5cdc413ed6b3bd76e38f0d91e
+Author: bacoo11 <damir.bachevac@students.finki.ukim.mk>
+Date:   Sun Apr 14 20:11:48 2024 +0200
+
+    Initial commit
